@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<!--
+        Not.exe suppresses lines of input that start with, end with, or contain the specified string.
+        Copyright (C) 2023 Timothy J. Bruce
+	-->
+
+	<PropertyGroup>
+		<RootNamespace>Icod.Not</RootNamespace>
+		<AssemblyName>Not</AssemblyName>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+</Project>

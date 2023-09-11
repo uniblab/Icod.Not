@@ -2,15 +2,15 @@
 Not.exe suppresses lines of input that start with, end with, or contain the specified string.
 
 ## Usage
-`Not.exe --help`
+`Not.exe (-h | --help | /help)`
 Displays this text.
 
-`Not.exe --copyright`
+`Not.exe (-c | --copyright | /copyright)`
 Displays copyright and licensing information.
 
 `Not.exe (-s | --string | /string) theString (-m | --mode | /mode) (StartsWith | Contains | EndsWith) [(-cmd | --compare | /compere) (CurrentCulture | CurrentCultureIgnoreCase | InvariantCulture | InvariantCultureIgnoreCase | Ordinal | OrdinalIgnoreCase)] [(-i | --input | /input) inputFilePathName] [(-o | --output | /output) outputFilePathName]`
 Not.exe suppresses lines of input that start with, end with, or contain the specified string.
-The default value for the --compare switch is CurrentCulture.
+The default value for the compare switch is CurrentCulture.
 inputFilePathName and outputFilePathName may be relative or absolute paths.
 If inputFilePathName is omitted then input is read from StdIn.
 If outputFilePathName is omitted then output is written to StdOut.

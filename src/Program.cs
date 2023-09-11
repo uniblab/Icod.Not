@@ -144,8 +144,8 @@ namespace Icod.Not {
 
 		private static void PrintUsage() {
 			System.Console.Error.WriteLine( "No, no, no! Use it like this, Einstein:" );
-			System.Console.Error.WriteLine( "Not.exe --help" );
-			System.Console.Error.WriteLine( "Not.exe --copyright" );
+			System.Console.Error.WriteLine( "Not.exe (-h | --help | /help)" );
+			System.Console.Error.WriteLine( "Not.exe (-c | --copyright | /copyright)" );
 			System.Console.Error.WriteLine( "Not.exe (-s | --string | /string) theString (-m | --mode | /mode) (StartsWith | Contains | EndsWith) [(-cmd | --compare | /compere) (CurrentCulture | CurrentCultureIgnoreCase | InvariantCulture | InvariantCultureIgnoreCase | Ordinal | OrdinalIgnoreCase)] [(-i | --input | /input) inputFilePathName] [(-o | --output | /output) outputFilePathName]" );
 			System.Console.Error.WriteLine( "Not.exe suppresses lines of input that start with, end with, or contain the specified string." );
 			System.Console.Error.WriteLine( "The default value for the --compare switch is CurrentCulture." );

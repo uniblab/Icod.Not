@@ -1,5 +1,5 @@
 ﻿// Not.exe suppresses lines of input that start with, end with, or contain the specified string.
-// Copyright( C ) 2023 Timothy J. Bruce
+// Copyright( C ) 2025 Timothy J. Bruce
 
 /*
     This program is free software: you can redistribute it and/or modify
@@ -158,7 +158,7 @@ namespace Icod.Not {
 		private static void PrintCopyright() {
 			var copy = new System.String[] {
 				"Not.exe suppresses lines of input that start with, end with, or contain the specified string.",
-				"Copyright( C ) 2023 Timothy J. Bruce",
+				"Copyright( C ) 2025 Timothy J. Bruce",
 				"",
 				"This program is free software: you can redistribute it and / or modify",
 				"it under the terms of the GNU General Public License as published by",

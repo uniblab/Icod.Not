@@ -19,7 +19,7 @@ Not.exe does not use Regular Expressions.
 
 ## Copyright and Licensing
 Not.exe suppresses lines of input that start with, end with, or contain the specified string.
-Copyright( C ) 2023 Timothy J. Bruce
+Copyright( C ) 2025 Timothy J. Bruce
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published 
